@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industrial_solutions",
+  "info": {
+    "singularName": "industrial-solution",
+    "pluralName": "industrial-solutions",
+    "displayName": "行业案例",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "caseBackground": {
+      "type": "richtext"
+    },
+    "caseDetails": {
+      "type": "richtext"
+    },
+    "caseValue": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
