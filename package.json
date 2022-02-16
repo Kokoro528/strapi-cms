@@ -9,12 +9,13 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.0.7",
-    "@strapi/plugin-users-permissions": "4.0.7",
     "@strapi/plugin-i18n": "4.0.7",
-    "sqlite3": "5.0.2"
+    "@strapi/plugin-users-permissions": "4.0.7",
+    "@strapi/strapi": "4.0.7",
+    "esdk-obs-nodejs": "^3.21.6",
+    "sqlite3": "5.0.2",
+    "strapi-provider-upload-huaweicloud-obs": "file:providers/strapi-provider-upload-huaweicloud-obs"
   },
   "author": {
     "name": "A Strapi developer"
