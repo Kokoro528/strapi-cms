@@ -4,8 +4,7 @@
   "info": {
     "singularName": "industrial-solution",
     "pluralName": "industrial-solutions",
-    "displayName": "行业案例",
-    "description": ""
+    "displayName": "行业解决方案"
   },
   "options": {
     "draftAndPublish": true
