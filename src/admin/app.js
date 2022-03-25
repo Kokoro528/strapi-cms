@@ -1,3 +1,5 @@
+import zhHans from "./extensions/translations/zh-Hans.json"
+import zh from "./extensions/translations/zh.json"
 export default {
   config: {
     locales: [
@@ -25,9 +27,13 @@ export default {
       // 'tr',
       // 'uk',
       // 'vi',
-      // 'zh-Hans',
-      // 'zh',
+      'zh-Hans',
+      'zh',
     ],
+    translations: {
+      'zh-Hans': zhHans,
+      'zh': zh
+    }
   },
   bootstrap(app) {
     console.log(app);
