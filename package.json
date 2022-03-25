@@ -14,8 +14,8 @@
     "@strapi/plugin-users-permissions": "4.1.0",
     "@strapi/strapi": "4.1.0",
     "esdk-obs-nodejs": "^3.21.6",
-    "sqlite3": "5.0.2",
     "pg": "8.6.0",
+    "sqlite3": "5.0.2",
     "strapi-provider-upload-huaweicloud-obs": "file:providers/strapi-provider-upload-huaweicloud-obs"
   },
   "author": {
